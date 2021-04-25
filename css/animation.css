@@ -1,0 +1,71 @@
+@keyframes pulse{
+    0%{
+        transform: translate(-50%,-50%) scale(.75);
+    }
+    100%{
+        transform: translate(-50%,-50%) scale(1);
+    }
+}
+
+@keyframes pulse-big{
+    0%{
+        transform: translate(-50%,-50%) scale(.8);
+    }
+    100%{
+        transform: translate(-50%,-50%) scale(1);
+    }
+}
+
+@keyframes slideInLeft {
+    0%{
+        transform: translateX(-100%);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+
+@keyframes scaleIn{
+    0%{
+        transform: translateY(0) scale(0);
+    }
+    100%{
+        transform: translateY(0) scale(1);
+    }
+}
+
+@keyframes slideUp{
+    0%{
+        transform: translateY(-50%);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideDown{
+    0%{
+        transform: translateY(50%);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+
+@keyframes bounce{
+    0%{
+        transform: translate(-50%,0);
+    }
+    50%{
+        transform: translate(-50%,-50%);
+    }
+    100%{
+        transform: translate(-50%,0);
+    }
+}
+
+@keyframes animate{
+    100%{
+        transform: scaleX(1);
+    }
+}

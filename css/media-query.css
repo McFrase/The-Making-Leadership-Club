@@ -1,0 +1,202 @@
+@media (max-width: 991px){
+    .height-65{
+        min-height: 65vh;
+    }
+
+    .hero{
+        min-height: 100vh;
+    }
+
+    .logo{
+        position: fixed;
+        top: 10px;
+        left: 10px;
+        width: 200px;
+        height: 80px;
+        background: url('../assets/logo.png');
+        background-repeat: no-repeat;
+        background-size: 200px;
+        background-position: center;
+        cursor: pointer;
+    }
+    
+    .navbar{
+        width: 300px;
+        height: 100%;
+        background-color: var(--deep-main-c);
+        position: fixed;
+        top: 0;
+        right: -300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: right .8s cubic-bezier(1, 0, 0, 1);
+    }
+    
+    .active{
+        color: var(--deep-orange);
+    }
+    
+    .change {
+        right: 0;
+    }
+    
+    .hamburger-menu{
+        width: 35px;
+        height: 30px;
+        position: fixed;
+        top: 35px;
+        right: 20px;
+        cursor: pointer;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    
+    .line{
+        width: 100%;
+        height: 3px;
+        background-color: var(--blend-orange);
+        transition: all .8s ease-in-out;
+    }
+    
+    .change .line-1{
+        transform: rotateZ(-405deg) translate(-8px, 6px);
+        background-color: var(--deep-orange);
+    }
+    
+    .change .line-2{
+        opacity: 0;
+    }
+    
+    .change .line-3{
+        transform: rotateZ(405deg)  translate(-8px, -6px);
+        background-color: var(--deep-orange);
+    }
+    
+    .nav-list{
+        text-align: right;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .nav-item{
+        list-style: none;
+        margin: 25px;
+    }
+    
+    .nav-link{
+        text-decoration: none;
+        font-size: 22px;
+        color: #fff;
+        font-weight: 300;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        position: relative;
+        padding: 3px 0;
+        cursor: pointer;
+    }
+    
+    .nav-container{
+        height: 100px;
+    }
+    .one, .two{
+        height: 100%;
+        width: 100%;
+        position: initial;
+        padding: 40px 30px 25px;
+    }
+
+    .director-img{
+        width: 250px;
+        height: auto;
+    }
+
+    .director .d-flex, #bam .d-flex{
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .box{
+        width: 700px;
+        height: 700px;
+        pointer-events: none;
+    }
+    
+    .inner-box{
+        width: 350px;
+        height: 350px;
+    }
+
+    #about-us{
+    min-height: 100vh;
+    }
+
+    .title::before{
+        width: 24%;
+    }
+
+    #jan,
+    #feb{
+        width: 100%;
+        height: 300px;
+    }
+
+    #preview img{
+        width: 20px;
+        margin: 0 5px;
+    }
+
+    #preview .active-img{
+        width: 30px;
+    }
+
+    .spread-out{
+        width: 100%;
+    }
+
+    #blog-intro h1 span{
+        font-size: 28px;
+    }
+
+    #blog-intro h1 span:nth-child(3){
+        font-size: 32px;
+    }
+
+    .scroll-btn{
+        display: none;
+    }
+
+    .blog-dots{
+        display: none;
+    }
+    #remaining-content, #remaining-content-2, #remaining-content-3, #remaining-content-4{
+        background-color: initial;
+        color: initial !important;
+    }
+
+    .progress-bars .step .bullet::before,
+    .progress-bars .step .bullet::after{
+        right: -51px;
+        width: 44px;
+    }
+
+    .bam-container header,
+    #magazine-list header{
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+
+    .bam-container header::before,
+    #magazine-list header::before{
+        width: 25%;
+        height: 4px;
+        border-radius: 20px;
+    }
+
+    .header{
+        font-size: 2em;
+        color: var(--white);
+    }
+}

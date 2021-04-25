@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Making LC - Gallery</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/all.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/media-query.css">
+    <link rel="stylesheet" href="./css/animation.css">
+
+    <!-- FavIcons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicons/favicon-16x16.png">
+    <link rel="manifest" href="./assets/favicons/site.webmanifest">
+    <!-- End of FavIcons -->
+
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-45CSH8C2JX"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-45CSH8C2JX');
+    </script>
+
+    <style>
+        .nav-container {
+            background: #000 !important;
+            color: #fff !important;
+            box-shadow: 0 3px 20px rgba(black, 0.2);
+        }
+        @media (max-width: 991px){
+            body{
+                padding-top: 15vh;
+            }
+        }
+    </style>
+</head>
+
+<body id="body">
+    <div class="nav-container">
+        <div class="container">
+            <a href="index.html" class="logo"></a>
+            <div class="navbar">
+                <div class="hamburger-menu">
+                    <div class="line line-1"></div>
+                    <div class="line line-2"></div>
+                    <div class="line line-3"></div>
+                </div>
+
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="about.html" class="nav-link">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="magazine.html" class="nav-link">Magazine</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="jan-2019.html" class="nav-link active">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="blog.html" class="nav-link">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- End of Navbar -->
+
+    <div id="fullPage">
+        <div class="section">
+            <div class="container-fluid">
+                <div class="row height-100">
+                    <div class="col-md-3 d-flex align-items-center bg-dark text-white justify-content-center py-4 py-md-0" id="gallery-left">
+                        <div class="gallery-intro">
+                            <h2>Explore</h2>
+                            <h5>Leadership</h5>
+                            <p>View our gallery today</p>
+                            <div class="navigate">
+                                <div class="pm">
+                                    <a href="jan-2019.html">
+                                        <img src="./assets/left-arrow-white.png" alt="" width="25">
+                                        <span>Previous</span>
+                                    </a>
+                                </div>
+                                <!-- End of Previous Month -->
+                                <div class="nm">
+                                    <a href="feb-2019.html">
+                                        <span>Next</span>
+                                        <img src="./assets/right-arrow-white.png" alt="" width="25">
+                                    </a>
+                                </div>
+                                <!-- End of Next Month -->
+                            </div>
+                            <!-- End of Navigate -->
+                        </div>
+                    </div>
+                    <!-- End of Gallery Left -->
+
+                    <div class="col-md-9 d-flex flex-wrap align-items-center text-white justify-content-center">
+                        <div id="feb"></div>
+
+                        <div class="month text-center">
+                            <h4 class="main-green my-2 my-md-0">FEB '19</h4>
+                            <div class="slider">
+                                <img src="./assets/left-arrow.png" id="prev">
+                                <div id="preview">
+                                    <img src="./assets/events/feb/DSC_0573.jpg" class="active-img thumbnail">
+                                    <img src="./assets/events/feb/DSC_0630.jpg" class="thumbnail">
+                                    <img src="./assets/events/feb/DSC_0648.jpg" class="thumbnail">
+                                    <img src="./assets/events/feb/DSC_0716.jpg" class="thumbnail">
+                                    <img src="./assets/events/feb/DSC_0735.jpg" class="thumbnail">
+                                    <img src="./assets/events/feb/DSC_0741.jpg" class="thumbnail">
+                                    <img src="./assets/events/feb/DSC_0757.jpg" class="thumbnail">
+                                    <img src="./assets/events/feb/DSC_0803.jpg" class="thumbnail">
+                                    <img src="./assets/events/feb/DSC_0815.jpg" class="thumbnail">
+                                    <img src="./assets/events/feb/DSC_0821.jpg" class="thumbnail">
+                                </div>
+                                <img src="./assets/right-arrow.png" id="next">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <footer class="py-5">
+        <div class="container">
+            <div class="row height-30">
+                <div class="col-md-3 my-3">
+                    <h3>About Us</h3>
+                    <p class="text-muted small my-4">TMLC is aimed at making everyone live in the realities of their leadership potentials...</p>
+                    <div class="social-icons my-4">
+                        <a href="https://twitter.com/themakinglc" target="_blank">
+                            <img src="./assets/twitter.svg" alt="" class="soical-lists">
+                        </a>
+                        <!-- End of Twitter -->
+                        <a href="https://web.facebook.com/The-Making-Leadership-Club-110202020898906" target="_blank">
+                            <img src="./assets/facebook.svg" alt="" class="soical-lists">
+                        </a>
+                        <!-- End of Facebook -->
+                        <a href="https://www.instagram.com/themakinglc/" target="_blank">
+                            <img src="./assets/instagram.svg" alt="" class="soical-lists">
+                        </a>
+                        <!-- End of Instagram -->
+                    </div>
+                </div>
+                <!-- End About-Footer -->
+                <div class="col-md-3 my-3">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li class="my-4"><a href="">Contact</a></li>
+                        <li class="my-4"><a href="">Gallery</a></li>
+                        <li class="my-4"><a href="">Magazine</a></li>
+                        <li class="my-4"><a href="">Terms & Conditions</a></li>
+                    </ul>
+                </div>
+                <!-- End of Quick links -->
+                <div class="col-md-3 my-3">
+                    <h3>Categories</h3>
+                    <ul>
+                        <li class="my-4"><a href="">Motivation</a></li>
+                        <li class="my-4"><a href="">TMLC</a></li>
+                        <li class="my-4"><a href="">Whatsapp sessions</a></li>
+                    </ul>
+                </div>
+                <!-- End of Categories -->
+                <div class="col-md-3 my-3">
+                    <h3>Subscribe</h3>
+                    <p class="small text-muted mt-4">Subscribe to receive latest updates on blog posts, publications and events.</p>
+                    <div class="form-group my-4">
+                        <input type="email" placeholder="Enter your Email" class="form-control" />
+                        <a href=""><i class="fa fa-paper-plane"></i></a>
+                    </div>
+                </div>
+                <!-- End of Newsletter Form -->
+                <div class="footer-divider my-5"></div>
+                <!-- End of Divider -->
+                <div class="col-md-12 text-center small">
+                    <p class="deep-main-green">copyrights 2020 TMLC</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./js/jQuery v3.5.1.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/all.js"></script>
+    <script src="./js/script.js"></script>
+    <script src="./js/typed.js"></script>
+    <script>
+        var typed = new Typed('.typed-words', {
+            strings: ["We are geared towards instilling the nitty-gritty that makes excellent leadership", "We believe 80% knowledge and 20% skill has proven overtime to be the condiments for effective leadership", "We go on a journey to living our leadership destinies with an Intentional Decision and Meticulous Actions", "We are aimed at making everyone live in the realties of their leadership potentials"],
+            typeSpeed: 20,
+            backSpeed: 20,
+            backDelay: 4000,
+            startDelay: 1000,
+            loop: true,
+            showCursor: true,
+        });
+    </script>
+    <script src="./js/fullpage.min.js"></script>
+
+    <script>
+        var prev = document.getElementById("prev");
+        var next = document.getElementById("next");
+        var thumbnail = document.getElementsByClassName("thumbnail");
+        var gallery = document.getElementById("feb");
+
+        var feb = new Array(
+            "assets/events/feb/DSC_0573.jpg",
+            "assets/events/feb/DSC_0630.jpg",
+            "assets/events/feb/DSC_0648.jpg",
+            "assets/events/feb/DSC_0716.jpg",
+            "assets/events/feb/DSC_0735.jpg",
+            "assets/events/feb/DSC_0741.jpg",
+            "assets/events/feb/DSC_0757.jpg",
+            "assets/events/feb/DSC_0803.jpg",
+            "assets/events/feb/DSC_0815.jpg",
+            "assets/events/feb/DSC_0821.jpg",
+        );
+        let i = 0;
+        next.onclick = function () {
+
+            if (i < 9) {
+                gallery.style.backgroundImage = 'url("' + feb[i + 1] + '")';
+                thumbnail[i + 1].classList.add("active-img");
+                thumbnail[i].classList.remove("active-img");
+                i++;
+            }
+        };
+        prev.onclick = function () {
+
+            if (i > 0) {
+                gallery.style.backgroundImage = 'url("' + feb[i - 1] + '")';
+                thumbnail[i - 1].classList.add("active-img");
+                thumbnail[i].classList.remove("active-img");
+                i--;
+            }
+        };
+    </script>
+</body>
+
+</html>
